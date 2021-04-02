@@ -34,9 +34,6 @@
 import ImgShadow from './ImgShadow.vue'
 import AuthorBadge from './AuthorBadge.vue'
 import * as utils from '@/utils'
-import party from 'party-js'
-
-party.screen()
 
 export default {
   name: 'MembershipItem',

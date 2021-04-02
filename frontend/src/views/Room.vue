@@ -10,6 +10,8 @@ import ChatClientDirect from '@/api/chat/ChatClientDirect'
 import ChatClientRelay from '@/api/chat/ChatClientRelay'
 import ChatRenderer from '@/components/ChatRenderer'
 import * as constants from '@/components/ChatRenderer/constants'
+import party from 'party-js'
+
 
 export default {
   name: 'Room',
@@ -151,6 +153,7 @@ export default {
         title: '欢迎上舰'
       }
       this.$refs.renderer.addMessage(message)
+      party.screen()
     },
     onAddSuperChat(data) {
       if (!this.config.showGift || !this.filterSuperChatMessage(data)) {
