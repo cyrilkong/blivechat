@@ -230,7 +230,7 @@ let membershipItemTemplate = {
   time: time,
   authorName: '',
   privilegeType: 3,
-  title: 'New member'
+  title: '欢迎上舰'
 }
 let paidMessageTemplate = {
   id: 0,
@@ -278,7 +278,7 @@ const EXAMPLE_MESSAGES = [
     id: (nextId++).toString(),
     authorName: '愛里紗メイプル',
     price: 66600,
-    content: 'Sent 小电视飞船x100'
+    content: '投喂 小电视飞船x100'
   },
   {
     ...textMessageTemplate,
