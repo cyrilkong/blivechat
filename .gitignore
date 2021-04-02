@@ -107,3 +107,4 @@ venv.bak/
 .idea/
 data/database.db
 *.log*
+frontend/package-lock.json
